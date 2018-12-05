@@ -1,7 +1,7 @@
 # Learn Git
 The purpose of this repository is to teach the basics of Git. Learn a little bit about git and why we use it @ [The Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html). The core of our branching model comes from [The Gitflow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
 
-Please read [important warnings and best practices](##Important).
+Please read [important warnings and best practices](#important-warnings-and-best-practices).
 
 We'll cover:
 - [Installing Git](#install-git)
