@@ -4,14 +4,16 @@ The purpose of this repository is to teach the basics of Git. Learn a little bit
 Please read [important warnings and best practices](##Important).
 
 We'll cover:
-- [Installing Git](###Install)
-- [Cloning your project](###Clone)
-- [Pulling the latest code](###Pull)
-- [Creating a new branch](###Create)
-- [Checking the branch status](###Checking)
-- [Commiting/saving your work](###Commit)
-- [Reverting mistakes](###Revert)
-- [Important warnings and best practices](##Important)
+- [Installing Git](#install-git)
+- [Cloning your project](#clone-your-project)
+- [Pulling the latest code](#pull-the-latest-code)
+- [Creating a new branch](#create-a-new-branch)
+- [Checking the branch status](#checking-the-branch-status)
+- [Commiting/saving your work](#commit-saving-your-work)
+- [Reverting mistakes](#reverting-mistakes)
+- [Important warnings and best practices](#important-warnings-and-best-practices)
+
+To demonstrate your knowledge, we'll do [simple lab](#demonstrate-your-skills).
 
 
 ### Install Git
@@ -25,8 +27,7 @@ Get a copy of project code:
 - Run: `git clone <PROJECT URL WE COPIED`
 
 ### Pull the latest code
-Refresh your copy of production code:
-
+Refresh your copy of `production` code (`production` is a branch in this case, more on that in a second):
 ```
 git checkout production
 git pull origin production
@@ -102,3 +103,14 @@ git checkout <path to file>
 - Rebasing/merging is difficult at times - if you are unsure about any of it, **Ask**.
 - All your branches should co-relate to a ticket. Otherwise others won't be able to see what you're doing and work alongside you. If you have an idea and want to work on it, just create a simple ticket first. Ideally go with the team priorities as laid out in [Active Work](https://github.com/orgs/BustrInc/projects/2).
 - Along with the note above, all branches for tracking should end in a ticket number. For example, if there is a ticket with issue number "3873" you'd name the branch "your-change-name-3873". Publishing scripts and humans can match any branch by this number to the issue it belongs.
+
+
+## Demonstrate your skills
+To demonstrate your knowledge of Git, try to complete the following lab:
+- Clone [this project](https://github.com/BustrInc/LearnGit)
+- Create a new branch from production
+- Create a new empty text file to the root of this project with your email as the filename:
+  - For example, I would create a file "bengineer.txt" since my email is "bengineer@buster.com"
+- Add the new file to a commit
+- Push your branch to Github
+- Create a code review
