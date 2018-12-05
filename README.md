@@ -112,5 +112,6 @@ To demonstrate your knowledge of Git, try to complete the following lab:
 - Create a new empty text file to the root of this project with your email as the filename:
   - For example, I would create a file "bengineer.txt" since my email is "bengineer@buster.com"
 - Add the new file to a commit
+- Ask someone to add you as a collaborator to this project (or the next steps will fail)
 - Push your branch to Github
 - Create a code review
