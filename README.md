@@ -24,7 +24,7 @@ Get a copy of project code. You'll only need to do this once per computer/server
 - Go to the Github page for the project
 - Click "Clone or download" on the righthand side of the page
 - Copy the URL
-- Run: `git clone <PROJECT URL WE COPIED`
+- Run: `git clone <PROJECT URL WE COPIED>`
 
 ### Pull the latest code
 Refresh your copy of `production` code (`production` is a branch in this case, more on that in a second):
