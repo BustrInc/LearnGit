@@ -20,7 +20,7 @@ To demonstrate your knowledge, we'll do [simple lab](#demonstrate-your-skills).
 Git is available on a variety of platforms. Just follow the [install instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 ### Clone your project
-Get a copy of project code:
+Get a copy of project code. You'll only need to do this once per computer/server you plan to do your coding on:
 - Go to the Github page for the project
 - Click "Clone or download" on the righthand side of the page
 - Copy the URL
