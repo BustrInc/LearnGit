@@ -11,7 +11,7 @@ We'll cover:
 - [Checking the branch status](###Checking)
 - [Commiting/saving your work](###Commit)
 - [Reverting mistakes](###Revert)
-- [important warnings and best practices](##Important)
+- [Important warnings and best practices](##Important)
 
 
 ### Install Git
