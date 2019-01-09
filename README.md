@@ -31,6 +31,7 @@ Refresh your copy of `production` code (`production` is a branch in this case, m
 ```
 git checkout production
 git pull origin production
+git merge --abort
 git reset --hard origin/production
 ```
 
