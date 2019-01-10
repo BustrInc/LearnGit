@@ -100,14 +100,14 @@ git checkout <path to file>
 ```
 
 ### Fixing bad branches
-Accidents happen and sometimes you'll forget to [start off on the production branch when making new features](#create-a-new-branch). You end up with a bunch of files in your change that you didn't actually change. Essentially you started with a bunch of changes and built your feature on top of that. It's a problem because not all of the changes in the branch you started from were valid (ie. more changes were made, some changes made it to production, some changes were probably removed entirely, etc). That's why following the [new branch guide](#pull-the-latest-code) for *every single new branch* is really important.
+Accidents happen and sometimes you'll forget to [start off on the production branch when making new features](#pull-the-latest-code). You end up with a bunch of files in your change that you didn't actually change. Essentially you started with a bunch of changes and built your feature on top of that. It's a problem because not all of the changes in the branch you started from were valid (ie. more changes were made, some changes made it to production, some changes were probably removed entirely, etc). That's why following the [new branch guide](#pull-the-latest-code) for *every single new branch* is really important.
 
 To fix the problem, there's two options to handle this:
 - Recreate changes from scratch in a new branch by selecting only the changes that are valid from the old branch
 - Removing the changes that are invalid from the branch (basically do this instead of the above if the number of bad files < number of valid files)
 
 As an example let's step through the first method by creating a new branch. You're going to have to go through each file in the bad branch and determine if it has changes in it that you made or not. If the file *DOES* have changes, then we'll move that file over to the new branch.
-- Follow steps for [creating a new branch](#create-a-new-branch)
+- Follow steps for [creating a new branch](#pull-the-latest-code)
 - For every file in the PR that is valid and has your changes, run `git reset <REPLACE WITH OLD BRANCH NAME> <REPLACE WITH FILENAME>`. For example, if the `Gemfile` has changes and your bad branch is named `my-bad-branch-1234`, you'd run `git reset my-bad-branch-1234 Gemfile`
 - Once you've gone through all the files and are confident you have selected which ones are valid (ie. doing the above), run `git checkout .`
 - If any files had changes that you made AND had changes that you didn't make, you need to go and manually edit the files to replace the lines of code that you didn't change
